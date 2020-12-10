@@ -1,0 +1,74 @@
+###
+### $Id: NAMESPACE
+###
+
+
+## Imported methods
+import(doParallel)
+import(foreach)
+import(iterators)
+import(parallel)
+import(methods)
+import(cobs)
+import(grDevices)
+import(utils)
+importFrom("MASS", rlm)
+importFrom("graphics", hist)
+importFrom("graphics", image)
+importFrom("graphics", plot)
+importFrom("stats", coef, coefficients)
+importFrom("stats", fitted)
+importFrom("stats", loess)
+importFrom("stats", resid, residuals)
+importFrom("graphics", "abline", "axis", "box", "legend", "lines",
+           "mtext", "par", "points", "rect", "text", "title")
+importFrom("stats", "approx", "cor", "lm", "mad", "median",
+           "medpolish", "nls", "nls.control", "predict", "pt",
+           "quantile", "rnorm", "sd", "var")
+importFrom("imager", "load.image", "imappend", "imresize", "imrotate", "add.color", "as.cimg", "save.image")
+import(jpeg)
+import(png)
+import(tiff)
+import(bmp)
+
+		   
+## Public classes
+exportClasses(RPPADesignParams)
+exportClasses(RPPASpatialParams)
+exportClasses(RPPAFitParams)
+exportClasses(RPPANormalizationParams)
+exportClasses(RPPASPACESettings)
+
+## S4 methods
+exportMethods(write.summary)
+exportMethods(normalize)
+exportMethods(paramString)
+
+## Public functions
+export(fitCurveAndSummarizeFromSettings)
+export(RPPADesignParams)
+export(RPPASpatialParams)
+export(RPPAFitParams)
+export(RPPANormalizationParams)
+export(RPPASPACESettings)
+
+
+## Registration functions (generic)
+export(getRegisteredMethod)
+export(getRegisteredMethodKeys)
+export(getRegisteredObject)
+export(getRegisteredObjectKeys)
+export(registerClassname)
+export(registerMethod)
+
+## Registration functions (specific)
+export(getRegisteredModel)
+export(getRegisteredModelKeys)
+export(getRegisteredModelLabel)
+export(registerModel)
+
+export(getRegisteredNormalizationMethod)
+export(getRegisteredNormalizationMethodKeys)
+export(getRegisteredNormalizationMethodLabel)
+export(registerNormalizationMethod)
+
