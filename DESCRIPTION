@@ -1,6 +1,6 @@
 Package: RPPASPACE
-Version: 1.0.8
-Date: 2021-10-18
+Version: 1.0.9
+Date: 2023-07-25
 Title: Reverse-Phase Protein Array Super Position and Concentration
         Evaluation
 Authors@R: 
@@ -48,7 +48,7 @@ License: Artistic-2.0
 Copyright: file inst/COPYRIGHTS
 LazyLoad: yes
 Encoding: UTF-8
-Packaged: 2021-10-20 15:28:56 UTC; jmmelott
+Packaged: 2023-07-25 16:46:01 UTC; jmmelott
 Author: James M. Melott [aut, cre],
   Paul Roebuck [aut],
   Kevin R. Coombes [aut],
@@ -57,4 +57,4 @@ Author: James M. Melott [aut, cre],
   Jianhua Hu [aut],
   Keith Baggerly [aut]
 Repository: CRAN
-Date/Publication: 2021-10-20 17:40:01 UTC
+Date/Publication: 2023-08-18 14:52:38 UTC
